@@ -1,10 +1,14 @@
+body {
+  background-color: #282c34;
+
+}
+
 .App {
-  text-align: center;
+  padding: 20px;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 40px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,26 +17,76 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;    
+}
+
+.items {
+  font-size: 20px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.routers {
+  color: #f2f2f2;
+  text-align: center;
+}
+.container-home{
+  margin-top: 20px;
+  /* border: 2px solid red; */
+  box-shadow: 4px 4px 8px #f2f2f2;
+  border-radius: 10px; 
+  padding: 15px; 
+}
+.container-contect{
+  margin-top: 20px;
+  /* border: 2px solid red; */
+  box-shadow: 4px 4px 8px #f2f2f2;
+  border-radius: 10px; 
+  padding: 15px; 
+}
+.container{
+  margin-top: 20px; 
+  
+  /* padding: 15px;  */
+}
+.students-table{
+  width: 100%;
+  border: 1px solid gray;
+  margin-top: 20px;
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 30pxpx;
+}
+.students-table tr th, .students-table tr td{
+  padding: 15px;
+}
+.edit-item{
+  color: cornflowerblue;
+}
+.add-new-student{
+  font-size: 18px;
+  border-radius: 30px;
+  height: 10%;  
+  padding: 8px;
+  margin-top: 15px;
 }
