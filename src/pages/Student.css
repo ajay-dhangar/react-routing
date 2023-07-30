@@ -86,3 +86,35 @@
     color: #000;
   }
   
+  /* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+    /* Adjust the form container for smaller screens */
+    .form-container {
+      max-width: 100%; /* Allow the form container to occupy the full width of smaller screens */
+      padding: 10px;
+    }
+  
+    /* Adjust the form elements for smaller screens */
+    .form-container input {
+      font-size: 14px;
+    }
+  
+    /* Adjust the table for smaller screens */
+    .students-table th,
+    .students-table td {
+      padding: 6px;
+    }
+  }
+  
+  /* Additional media queries for further adjustments if needed */
+  @media screen and (max-width: 400px) {
+    /* Additional adjustments for devices with smaller screens */
+    .form-container input {
+      font-size: 12px;
+    }
+  
+    .students-table th,
+    .students-table td {
+      padding: 4px;
+    }
+  }

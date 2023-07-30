@@ -3,10 +3,6 @@ body {
 
 }
 
-.App {
-  padding: 20px;
-}
-
 .App-logo {
   height: 40px;
 }
@@ -30,6 +26,7 @@ body {
 .nav-items {
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
   justify-content: space-evenly;    
 }
 
@@ -66,22 +63,22 @@ a {
   
   /* padding: 15px;  */
 }
-.students-table{
+/* .students-table{
   width: 100%;
   border: 1px solid gray;
   margin-top: 20px;
-}
+} */
 .main{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 30pxpx;
 }
-.students-table tr th, .students-table tr td{
+/* .students-table tr th, .students-table tr td{
   padding: 15px;
-}
+} */
 .edit-item{
-  color: cornflowerblue;
+  color: rgb(92, 17, 255);
 }
 .add-new-student{
   font-size: 18px;
