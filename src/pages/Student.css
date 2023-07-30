@@ -1,0 +1,88 @@
+/* Styles for the container holding the form */
+.form-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+  }
+  
+  /* Styles for the form elements */
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-container label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: rgb(81, 79, 79);
+  }
+  
+  .form-container input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-container button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-container button[type="button"] {
+    background-color: #ff0101;
+    /* margin-right: 10px; */
+  }
+  
+  /* Styles for the table */
+  .students-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;    
+  }
+  
+  .students-table th,
+  .students-table td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .students-table th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .students-table tr:nth-child(even) {
+    background-color: #d6cdcd;
+    color: #000;
+  }
+  
+  /* General styles for the container */
+  .container {
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #000;
+  }
+  
